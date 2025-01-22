@@ -1,0 +1,45 @@
+name: Feature Request
+description: Recommend a feature for consideration.
+labels: ["New Feature"]
+assignees: xlinka
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Related Problem
+      description: Is your feature request related to a problem? Please describe the issue or frustration.
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: Describe the solution you'd like to see implemented.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives Considered
+      description: Detail any alternative solutions or approaches you've considered.
+    validations:
+      required: true
+  - type: textarea
+    id: library-suggestions
+    attributes:
+      label: Links or Library Suggestions
+      description: Include any links to libraries or resources that might help implement this feature. All suggestions must be cross-platform compatible.
+    validations:
+      required: false
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any extra details or context that might be helpful.
+    validations:
+      required: false
+  - type: textarea
+    id: requesters
+    attributes:
+      label: Requesters
+      description: List usernames of anyone who has requested this feature (including yourself) for credit in release notes.
